@@ -70,7 +70,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav"> <button class="navbar-toggler" type="button"
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav"> 
+        <button class="navbar-toggler" type="button"
             data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation"> <span class="icono-hamburger" id="navbar-hamburger"> </span> </button> <a
             class="navbar-brand" href="">devlopr</a>
@@ -107,69 +108,77 @@
         <div class="close-search-button search-form-container__close"> <i class="fa fa-times icon"></i> </div>
     </div>
 
-    <div class="container mt-2">
-        <!--   <div class="card card-block mb-2">
-            <h4 class="card-title">Card 1</h4>
-            <p class="card-text">Welcom to bootstrap card styles</p>
-            <a href="#" class="btn btn-primary">Submit</a>
-          </div>   -->
-          <div class="row">
-            <div class="col-md-3 col-sm-6 item">
-              <div class="card item-card ">
-              
-            <img src="C:\Users\Dc\Documents\mywebsite\devlopr.netlify.appx\assets\img\gallery\mountains\12.jpg" alt="">
-                
-                <p class="card-text">Honoured by esteemed Education Minister of Punjab Mr. Vijay Inder Singla</p> 
-          </div>
-            </div>
-            <div class="col-md-3 col-sm-6 item">
-              <div class="card item-card card-block">
-             
-            <img src="C:\Users\Dc\Documents\mywebsite\devlopr.netlify.appx\assets\img\gallery\mountains\11.jpg" alt="Photo of sunset">
-                
-                <p class="card-text">Republic Day Celebrations. Glorified by then DC of Jalandhar , then Jail Minister of Punjab.</p> 
-          </div>
-            </div>
-            <div class="col-md-3 col-sm-6 item">
-              <div class="card item-card card-block">
-              
-            <img src="C:\Users\Dc\Documents\mywebsite\devlopr.netlify.appx\assets\img\gallery\mountains\14.jpg" alt="Photo of sunset">
-                
-                <p class="card-text">Acknowledged by my Respected Principal of 12th grade</p> 
-          </div>
-          <div class="col-md-3 col-sm-6 item">
-            <div class="card item-card card-block">
-           
-          <img src="C:\Users\Dc\Documents\mywebsite\devlopr.netlify.appx\assets\img\gallery\mountains\13.jpg" alt="Photo of sunset">
-              
-              <p class="card-text">A mesmerizing moment with PSEB Chairman and Punjab's Education Minister.</p> 
-        </div>
-            
-          
-          
-        </div>
+
+
+
+
+
+
+
+
+    <hr>
+    <h1> Image Gallery</h1><hr>
+<<div id="gallery" class="container-fluid">  
+
+  <img src="https://picsum.photos/300" class="card img-responsive">
+  <img src="https://picsum.photos/400" class="card img-responsive">
+<img src="https://picsum.photos/600" class="card img-responsive">
+  <img src="http://hd.wallpaperswide.com/thumbs/megan_fox_portrait-t2.jpg" class="card img-responsive">
+  <img src="https://picsum.photos/300/500" class="card img-responsive">
+  <img src="https://picsum.photos/650" class="card img-responsive">
+  <img src="https://picsum.photos/550" class="card img-responsive">
+  <img src="https://picsum.photos/410" class="card img-responsive">
+<img src="https://picsum.photos/420" class="card img-responsive">
+<img src="https://picsum.photos/430" class="card img-responsive">
+<img src="https://picsum.photos/440" class="card img-responsive">
+<img src="https://picsum.photos/540" class="card img-responsive">
+
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
         
-    <!-- <div class="col-lg-12">
-        <div class="row" id="blog-posts-container">
-            <div class="col-lg-11 offset-md-1">
-                <div class="card">
-                    <h1 class="card-title"> Gallery </h1>
-                    <div class="col-lg-8 offset-md-2">
-                        <div class="row">
-                            <div class="row">
-                                <div class="card">
-                                    <div class="card-title"> Mountains</div>
-                                    <div class="row"> <a href='mountains.html'> <img class="img-thumbnail"
-                                                alt="Mountains"
-                                                src="https://d33wubrfki0l68.cloudfront.net/fbf95fc3d4e549dc4545cfb8cc4c0d0cf96f7956/5c229/assets/img/gallery/mountains/1-thumbnail.jpg" />
-                                        </a> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        <!-- </div> -->
+
+
+
+
+
+
+
+
+    
         <footer>
             <p>Developed by<a href="about/index.html">Muskan</a>.Hosted at <a
                     href="https://pages.github.com">Github</a>. </p>
@@ -180,7 +189,96 @@
         <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script>
         <script
             src='https://d33wubrfki0l68.cloudfront.net/js/af2c7af3dcf47433aa6ac26e6f894cc334b2d95c/assets/js/mode-switcher.js'></script>
-        <script> if (window.netlifyIdentity) { window.netlifyIdentity.on("init", user => { if (!user) { window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; }); } }); } </script>
+        <script> if (window.netlifyIdentity) { window.netlifyIdentity.on("init", user => { if (!user) { window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; }); } }); } 
+        </script>
+
+
+<script>
+
+
+$(document).ready(function(){
+  $("img").click(function(){
+  var t = $(this).attr("src");
+  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+  $("#myModal").modal();
+});
+
+$("video").click(function(){
+  var v = $("video > source");
+  var t = v.attr("src");
+  $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+  $("#myModal").modal();  
+});
+});//EOF Document.ready
+
+
+</script>
+
+<style>
+
+
+h1{
+  font-family: Satisfy;
+  font-size:50px;
+  text-align:center;
+  color:black;
+  padding:1%;
+}
+#gallery{
+  -webkit-column-count:4;
+  -moz-column-count:4;
+  column-count:4;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+@media (max-width:1200px){
+  #gallery{
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  column-count:3;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:800px){
+  #gallery{
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
+    
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+}
+@media (max-width:600px){
+  #gallery{
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  column-count:1;
+}  
+}
+.card{
+  width:100%;
+  height:auto;
+  margin: 4% auto;
+  box-shadow:-3px 5px 15px #000;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+</style>
 </body>
 
 </html>
